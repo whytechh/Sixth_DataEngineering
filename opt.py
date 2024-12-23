@@ -2,12 +2,14 @@ import pandas as pd
 import json
 import os
 
+
 file_path = 'Variant V.csv'
 opt_file_path = 'VariantV_opt.csv'
 new_file_path = 'VariantV_p2.csv'
 
 def read_file(file_name):
     return pd.read_csv(file_name)
+
 
 def file_size_on_disk(file_path):
     file_size = os.path.getsize(file_path)
@@ -88,8 +90,8 @@ def opt_float(df):
     compare_floats.columns = ['before', 'after']
     compare_floats.apply(pd.Series.value_counts)
     #print(compare_floats)
-
     return converted_float
+
 
 data = read_file(file_name=file_path)
 file_size_on_disk(file_path=file_path)
@@ -134,11 +136,10 @@ for key in data.columns:
     need_column[key] = opt_dtypes[key]
     print(f"{key}:{opt_dtypes[key]}")
 
-with open('./results/new_file_types.json', mode="w") as file:
+with open('./results/new_file_types.json', 'w', encoding='utf-8') as file:
     dtype_json = need_column.copy()
     for key in dtype_json.keys():
         dtype_json[key] = str(dtype_json[key])
-
     json.dump(dtype_json, file)
 
 read_and_optimized = pd.read_csv(file_path, usecols=lambda x: x in column_names, dtype=need_column)
