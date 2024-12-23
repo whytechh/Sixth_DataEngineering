@@ -1,0 +1,206 @@
+[
+ {
+  "column_name": "source",
+  "memory_abs": 63469,
+  "memory_per": 12.1077,
+  "dtype": "object"
+ },
+ {
+  "column_name": "device_os",
+  "memory_abs": 61321,
+  "memory_per": 11.6981,
+  "dtype": "object"
+ },
+ {
+  "column_name": "payment_type",
+  "memory_abs": 57617,
+  "memory_per": 10.9913,
+  "dtype": "object"
+ },
+ {
+  "column_name": "employment_status",
+  "memory_abs": 57617,
+  "memory_per": 10.9913,
+  "dtype": "object"
+ },
+ {
+  "column_name": "housing_status",
+  "memory_abs": 57617,
+  "memory_per": 10.9913,
+  "dtype": "object"
+ },
+ {
+  "column_name": "fraud_bool",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "income",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "float64"
+ },
+ {
+  "column_name": "name_email_similarity",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "float64"
+ },
+ {
+  "column_name": "prev_address_months_count",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "current_address_months_count",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "customer_age",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "days_since_request",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "float64"
+ },
+ {
+  "column_name": "intended_balcon_amount",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "float64"
+ },
+ {
+  "column_name": "zip_count_4w",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "velocity_6h",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "float64"
+ },
+ {
+  "column_name": "velocity_24h",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "float64"
+ },
+ {
+  "column_name": "velocity_4w",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "float64"
+ },
+ {
+  "column_name": "bank_branch_count_8w",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "date_of_birth_distinct_emails_4w",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "credit_risk_score",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "email_is_free",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "phone_home_valid",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "phone_mobile_valid",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "bank_months_count",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "has_other_cards",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "proposed_credit_limit",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "float64"
+ },
+ {
+  "column_name": "foreign_request",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "session_length_in_minutes",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "float64"
+ },
+ {
+  "column_name": "keep_alive_session",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "device_distinct_emails_8w",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "device_fraud_count",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "month",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "int64"
+ },
+ {
+  "column_name": "x1",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "float64"
+ },
+ {
+  "column_name": "x2",
+  "memory_abs": 7812,
+  "memory_per": 1.4904,
+  "dtype": "float64"
+ }
+]
