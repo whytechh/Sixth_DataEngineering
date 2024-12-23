@@ -2,9 +2,9 @@ import pandas as pd
 import json
 import os
 
-file_path = '/root/lab6 Viktor/Variant V.csv'
-opt_file_path = '/root/lab6 Viktor/VariantV_opt.csv'
-new_file_path = '/root/lab6 Viktor/VariantV_p2.csv'
+file_path = 'Variant V.csv'
+opt_file_path = 'VariantV_opt.csv'
+new_file_path = 'VariantV_p2.csv'
 
 def read_file(file_name):
     return pd.read_csv(file_name)
@@ -96,7 +96,7 @@ file_size_on_disk(file_path=file_path)
 print(f'Размер DataFrame в памяти {mem_usage(pandas_obj=data)}')
 stat_no_opt = get_memory_stat_by_column(df=data)
 
-with open('/root/lab6 Viktor/stat_no_opt.json', 'w', encoding='utf-8') as file:
+with open('./results/stat_no_opt.json', 'w', encoding='utf-8') as file:
     json.dump(stat_no_opt, file, ensure_ascii=False, indent=1)
 
 opt_data = data.copy()
@@ -114,7 +114,7 @@ file_size_on_disk(file_path=opt_file_path)
 print(f'Размер DataFrame в памяти {mem_usage(pandas_obj=opt_data)}')
 stat_opt = get_memory_stat_by_column(df=opt_data)
 
-with open('/root/lab6 Viktor/stat_opt.json', 'w', encoding='utf-8') as file:
+with open('./results/stat_opt.json', 'w', encoding='utf-8') as file:
     json.dump(stat_opt, file, ensure_ascii=False, indent=1)
 
 need_column = dict()
@@ -134,7 +134,7 @@ for key in data.columns:
     need_column[key] = opt_dtypes[key]
     print(f"{key}:{opt_dtypes[key]}")
 
-with open("new_file_types.json", mode="w") as file:
+with open('./results/new_file_types.json', mode="w") as file:
     dtype_json = need_column.copy()
     for key in dtype_json.keys():
         dtype_json[key] = str(dtype_json[key])
